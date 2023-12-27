@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Chivo+Mono:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300;1,400&family=Inter:wght@400;500;600;700;800;900&family=Manrope:wght@300;400;500;600;800&family=Mulish:ital,wght@0,500;0,600;0,700;0,800;1,400;1,500;1,700;1,800&family=Poppins:ital,wght@0,200;0,300;1,100;1,200;1,300&family=Roboto:ital,wght@0,300;0,400;0,700;1,100;1,300;1,400;1,500&family=Ubuntu:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap');
+
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+
+.loging-area{
+    width: 600px;
+    margin: 100px auto;
+    border-radius: 20px;
+    padding: 10px;
+}
+.loging-area h1,h4{
+    /* margin-bottom: 20px; */
+    padding-bottom: 20px;
+}
+ input{
+    margin-top: 15px;
+}
+.btn{
+    text-align: start;
+    display: block;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+.bankAra{
+opacity: 0;
+padding: 50px;
+margin-top: 50px;
+}
+
+
+.box{
+    padding: 10px;
+    border-radius: 10px;
+    color: aliceblue;
+ 
+
+    
+}
+.deposit{
+background-color: slateblue;
+}
+.withdraw{
+background-color: lightcoral;
+}
+
+.balace{
+    background-color: orange;
+
+}
+.deposit-transaction{
+    border-radius: 10px;
+    box-shadow: 0px 2px 10px rgba(128, 128, 128, 0.199);
+    padding: 18px;
+    margin-top: 20px;
+    /* padding-bottom: 10px; */
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
