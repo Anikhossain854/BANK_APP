@@ -25,10 +25,16 @@ depositBtn.addEventListener('click',function(){
  udpadateSpanText('currentBalace',depositNumer);
  document.getElementById('depositAmount').value='';
 
+
 });
 withdrawBtn.addEventListener('click',function(){
 const withdrawNumber =getInputNumber('withdrawAmout');
-console.log(withdrawNumber)
+
+udpadateSpanText('withdraw',withdrawNumber);
+udpadateSpanText('currentBalace', -1 * withdrawNumber);
+
+document.getElementById('withdrawAmout').value='';
+
 }) 
 
 function getInputNumber(id){
